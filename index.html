@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FOR VS CODE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FOR CODEPEN
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+</style>
+TO CSS -->
+
+    <title>Simple Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- CATEGORIES -->
+    <section id="section-categories">
+      <div class="categories-text">
+        <h1 class="heading-primary">SIMPLE QUIZ</h1>
+      </div>
+      <div class="categories-container">
+        <div class="select">
+          <p class="select-text">Select the category:</p>
+        </div>
+        <div class="categories">
+          <div class="category">
+            <a href="#" class="link link-geography">
+              <button class="btn-category">Geography</button>
+              <img
+                src=https://i.postimg.cc/cHpWsmVb/geography.jpg
+                class="img img--geography"
+                alt="Geography"
+                class="category-img"
+              />
+            </a>
+          </div>
+          <div class="category">
+            <a href="#" class="link link-animals">
+              <button class="btn-category">Animals</button>
+              <img
+                src=https://i.postimg.cc/7Yc653Sw/animals.jpg
+                class="img img--animals"
+                alt="Animals"
+                class="category-img"
+              />
+            </a>
+          </div>
+          <div class="category">
+            <a href="#" class="link link-sport">
+              <button class="btn-category">Sport</button>
+              <img
+                src=https://i.postimg.cc/HxxD0KCK/sport.jpg
+                class="img img--sport"
+                alt="Sport"
+                class="category-img"
+              />
+            </a>
+          </div>
+          <div class="category">
+            <a href="#" class="link link-science">
+              <button class="btn-category">Science</button>
+              <img
+                src=https://i.postimg.cc/sXvff11v/science.jpg
+                class="img img--science"
+                alt="Science"
+                class="category-img"
+              />
+            </a>
+          </div>
+          <div class="category">
+            <a href="#" class="link link-history">
+              <button class="btn-category">History</button>
+              <img
+                src=https://i.postimg.cc/zfP5Q5p5/history.jpg
+                class="img img--history"
+                alt="History"
+                class="category-img"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- QUESTIONS -->
+    <section id="section-questions">
+      <div class="quiz-container">
+        <div class="name-container">
+          <h1 id="category-name">Category Name</h1>
+        </div>
+        <div class="content-container">
+          <div id="question-container">
+            <p id="question-text"></p>
+          </div>
+          <div id="options-container">
+            <button class="option-button" id="option1"></button>
+            <button class="option-button" id="option2"></button>
+            <button class="option-button" id="option3"></button>
+            <button class="option-button" id="option4"></button>
+          </div>
+          <div id="score-display">Score: 0</div>
+          <button id="next-button">Next question &rarr;</button>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
