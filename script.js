@@ -17,7 +17,7 @@ const questionsGeography = [
   {
     question: "What is the largest desert in the world?",
     options: ["Sahara Desert", "Gobi Desert", "Atacama Desert", "Antarctica"],
-    correctAnswer: "Sahara Desert"
+    correctAnswer: "Antarctica"
   },
   {
     question: "Which river is the longest in the world?",
